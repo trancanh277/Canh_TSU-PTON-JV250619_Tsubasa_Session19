@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark App</title>
+    <link rel="stylesheet" href="./baitap05.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <button id="show-modal" class="btn">ADD BOOKMARK</button>
+
+      <div id="bookmarks-container"></div>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="close-modal" class="close"
+            ><i class="fas fa-times"></i
+          ></span>
+          <h2>Add Bookmark</h2>
+          <form id="bookmark-form">
+            <label for="website-name">Website Name</label>
+            <input
+              type="text"
+              id="website-name"
+              placeholder="Enter website name"
+              required
+            />
+
+            <label for="website-url">Website URL</label>
+            <input
+              type="url"
+              id="website-url"
+              placeholder="https://example.com"
+              required
+            />
+
+            <button type="submit" class="btn save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./baitap05.js"></script>
+  </body>
+</html>
