@@ -1,0 +1,10 @@
+.container {
+  max-width: 900px;
+  margin-top: 20px;
+}
+table {
+  margin-top: 20px;
+}
+.action-buttons button {
+  margin-right: 5px;
+}
